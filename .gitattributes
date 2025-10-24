@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
+import random 
+r = random.randint(1,10)
+my_guess = int(input("Guess a number between 1 and 10: "))
+if r == my_guess:
+    print("You guessed right!")
+else:
+    print(f"You guessed wrong! The number is {r}")# Auto detect text files and perform LF normalization
 * text=auto
